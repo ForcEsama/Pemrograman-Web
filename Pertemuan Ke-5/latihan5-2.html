@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menguji apakah string berisi karakter tertentu,dengan indexof()</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var str="W3CSchools is great!"
+        var pos=str.indexOf("School")
+        if (pos>=0) {
+            document.write("School found at position: ")
+            document.write(pos + "<br/>")
+        }
+        else
+        {
+            document.write("School not found!")
+        }
+    </script>
+    <p>
+        This example test if a string contains a specified word.
+        If the word is found it returns the position of the first 
+        character of the word in the original string. Note: The first
+        position in the string is 0!
+    </p>
+</body>
+</html>

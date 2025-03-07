@@ -103,9 +103,6 @@ body {
     text-align: center; 
 }
 
-.table table td {
-    background-color: #fff3e0; 
-}
 
 .gallery {
     display: flex;

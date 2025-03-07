@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #252c37;
+    color: #ededed;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #0ef;
+}
+
+section {
+    min-height: 100vh;
+   
+    background: #1f242d;
+    font-size: 16px;
+    color: #fff;
+}
+.home {
+    display: flex;
+    justify-content: center; /* Mengatur elemen ke tengah secara horizontal */
+    align-items: center;    /* Mengatur elemen ke tengah secara vertikal */
+    height: 100vh;          /* Mengatur tinggi section sesuai layar penuh */
+    background-image: url(../Biodata4/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}       
+#date-display {
+    color: #0ef;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.home-content {
+    text-align: justify;
+    max-width: 800px;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.clock {
+    margin-top: 20px; /* Menambahkan jarak di atas jam */
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+input[name="display"] {
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    outline: none;
+    width: 250px;
+}
+
+
+
+#about {
+    background-image: url(../Biodata4/about.jpg);
+    background-size: cover; /* Gambar akan menutupi seluruh area */
+    background-position: center;  
+}
+
+.about-content h1 {
+    font-size: 30px;
+    padding: 40px;
+}
+
+.about-content p {
+    font-size: 20px;
+}
+
+.table p {
+    padding: 20px;
+    text-align: center;
+}
+
+.table table {
+    width: 50%; 
+    max-width: 100%; 
+    font-size: 30px; 
+    border-collapse: collapse; 
+    margin: 0 auto; 
+}
+
+.table table th,
+.table table td {
+    padding: 10px; 
+    text-align: left; 
+    vertical-align: middle; 
+    border: 1px solid #ffffff;
+}
+
+.table table th {
+    text-align: center; 
+    color: #0ef;
+}
+
+.hobby-content h1 {
+    font-size: 30px;
+    padding: 40px;
+    margin-bottom: 50px;
+   
+}
+
+.hobby1 {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.hobby1 p {
+    text-indent: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    max-width: 700px;
+}
+
+.hobby-img {
+    border: 1px solid #0ef;
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.hobby-img2 {
+    border: 1px solid #0ef;
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.hobby2 {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.hobby2 p {
+    text-indent: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    max-width: 700px;
+}
+
+.gallery-content{
+    text-align: justify;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    padding-top: 50px;
+}
+
+.image2 {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.gallery-img {
+    border: 1px solid #0ef;
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin: 20px;
+}
+.gallery-img2 {
+    border: 1px solid #0ef;
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin: 20px;
+}
+.gallery-img3 {
+    border: 1px solid #0ef;
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin: 20px;
+}
+
+.gallery-img4 {
+    border: 1px solid #0ef;
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin: 20px;
+}
+
+.gallery-img5 {
+    border: 1px solid #0ef;
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+section:nth-child(odd){
+    background: #323946;
+}
