@@ -1,0 +1,138 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman';
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 960px;
+    border: 2px solid #000000;
+    border-radius: 0px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+/* Header */
+.header {
+    background-color: #f28c28;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation */
+.navigation {
+    background-color: black;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.navigation ul li {
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+    font-size: 120%;
+}
+
+.content {
+    padding: 20px;
+    background-color: #fff3e0;
+    font-size: 16px;
+    height: 300px;
+    overflow: visible;
+}
+
+.content img {
+    width: 40%;
+}
+
+.hobby1 {
+    padding-top: 10px;
+    display: flex;
+}
+
+.hobby-desc {
+    padding-left: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.table table {
+    width: 90%; 
+    max-width: 100%; 
+    font-size: 12px; 
+    border-collapse: collapse; 
+    margin: 0 auto; 
+}
+
+.table table th,
+.table table td {
+    padding: 10px; 
+    text-align: left; 
+    vertical-align: middle; 
+    border: 1px solid #000;
+}
+
+.table table th {
+    text-align: center; 
+}
+
+.table table td {
+    background-color: #fff3e0; 
+}
+
+.gallery {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 50px;
+}
+
+.gallery img {
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.content ol {
+    padding-left: 20px;
+}
+
+.footer {
+    border-color: #000000;
+    border-style: inherit;
+    border-width: 2px 0px 0px 0px;
+    background-color: #f7ceb0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
