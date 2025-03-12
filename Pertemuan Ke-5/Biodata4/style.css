@@ -50,7 +50,6 @@ nav a.active {
 
 section {
     min-height: 100vh;
-   
     background: #1f242d;
     font-size: 16px;
     color: #fff;
@@ -60,7 +59,7 @@ section {
     justify-content: center; /* Mengatur elemen ke tengah secara horizontal */
     align-items: center;    /* Mengatur elemen ke tengah secara vertikal */
     height: 100vh;          /* Mengatur tinggi section sesuai layar penuh */
-    background-image: url(../Biodata4/background.jpg);
+    background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -103,7 +102,7 @@ input[name="display"] {
 
 
 #about {
-    background-image: url(../Biodata4/about.jpg);
+    background-image: url(about.jpg);
     background-size: cover; /* Gambar akan menutupi seluruh area */
     background-position: center;  
 }
